@@ -1,0 +1,12 @@
+{
+  "tests": [
+    {
+      "name": "GET chapters list",
+      "method": "GET",
+      "path": "/",
+      "expectedStatus": 200,
+      "expectedBody": {"chapters": []},
+      "bodyMatcher": "partial"
+    }
+  ]
+}
